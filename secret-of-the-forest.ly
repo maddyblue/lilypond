@@ -5,14 +5,26 @@
 \include "english.ly"
 
 \header {
-  title = "Secret of the Forest - Chrono Trigger"
+  title = "Secret of the Forest"
+  subtitle = "from Chrono Trigger"
   composer = "Yasunori Mitsuda"
   arranger = "arr. for organ by Maddy Whittier"
 }
 
-\score <<
+\score {
+  \header {
+    piece = \markup {
+      \column {
+        \line { \bold Réc Flûte Trav. 8 }
+        \line { \bold Pos Principal 8 }
+        \line { \bold Ped Soubasse 16, B. Doux 8 }
+      }
+    }
+  }
   \new PianoStaff <<
-    \new Staff \relative {
+    \new Staff
+    \with { instrumentName = "Réc" }
+    \relative {
       \time 4/4
       \key df \major
       bf'16 ef f bf
@@ -157,7 +169,9 @@
     }
 
     % melody
-    \new Staff \relative {
+    \new Staff
+    \with { instrumentName = "Pos" }
+    \relative {
       \time 4/4
       \key df \major
       r1 r r r r r r r
@@ -216,7 +230,7 @@
     % m31
     %bf
   }
->>
+}
 
 
 % m09: 0:25
