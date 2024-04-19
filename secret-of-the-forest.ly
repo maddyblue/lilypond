@@ -93,24 +93,9 @@
     \key df \major
     r1 r r r r r r r
     c''2 bf4 ef8. d32 df c2 bf4 af
-    g2 f4 bf8. a32 af g2. <f c'>16 <g ef'> <af g'> <bf af'>
+    g2 f4 bf8. a32 af g2. f16 g af bf
     c2 bf4 ef8. d32 df c2 f8. g af16 bf
-    c4 ~ c8. bf32 af gf4 ~ gf8. af16 g2. r4
-  }
-
-  % harmony
-  \new Staff \relative {
-    \time 4/4
-    \key df \major
-    r1 r r r r r r r
-    <gf bf f'> ~
-    <gf bf f'>
-    <f af ef'> ~
-    <f af ef'>
-    <gf bf f'> ~
-    <gf bf f'>
-    <f af ef'> ~
-    <f af ef'>
+    c4 ~ c8. bf32 af g4 ~ g8. f16 g2. r4
   }
 
   % pedal
