@@ -20,6 +20,17 @@
   }
   <<
     \new PianoStaff <<
+      % melody
+      \new Staff
+      \with { instrumentName = "Boven" }
+      \relative c' {
+        \time 4/4
+        \key c \major
+
+        \repeat unfold 8 { c8 b b d d a a c }
+        \repeat unfold 8 { g' fs fs a a e e g }
+      }
+
       \new Staff
       \with { instrumentName = "Rug" }
       \relative {
@@ -36,17 +47,6 @@
         \repeat unfold 2 { <cs g fs d> ~ }
         \repeat unfold 2 { <b g fs d> ~ }
         \repeat unfold 2 { <cs g fs d> ~ }
-      }
-
-      % melody
-      \new Staff
-      \with { instrumentName = "Boven" }
-      \relative c' {
-        \time 4/4
-        \key c \major
-
-        \repeat unfold 8 { c8 b b d d a a c }
-        \repeat unfold 8 { g' fs fs a a e e g }
       }
     >>
 
