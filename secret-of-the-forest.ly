@@ -119,6 +119,20 @@
         c2 bf4 ef8. d32 df c2 ~ c8 bf8 ~ bf16 c df ef
         f2 ef4 af8. g32 gf f2 ef4 af
         f1 c1
+
+        % m33
+        bf8. ^ "GO: Gambe 8, Flûte Harm. 8" f'16 r8 bf ~ bf8. c16 bf f bf,8
+        g8. d'16 r8 a'8. g d8 g,
+        ef8. bf'16 r8 f'8. ef bf8 ef,
+        f8. c'16 r8 f,4 ~ f16 f af f c8
+
+        bf'8. f'16 r8 bf ~ bf8. c16 bf f bf,8
+        g8. d'16 r8 a'8. g d8 g,
+        ef8. bf'16 r8 f'8. ef bf8 ef,
+        f8. c'16 r8 f,4 ~ f16 f af f c8
+
+        df8. af' ef'8 df4 c
+        f8. c f8 f,2
       }
     >>
 
@@ -145,16 +159,6 @@
       b2 gf'4 b,
       c2 g4' c
       f2, c2
-
-      % m33
-      \repeat unfold 2 {
-        bf8. f'16 r8 bf ~ bf8. c16 bf f bf,8
-        g8. d'16 r8 a'8. g d8 g,
-        ef8. bf'16 r8 f'8. ef bf8 ef,
-        f8. c'16 r8 f,4 ~ f16 f af f c8
-      }
-      df8. af' ef'8 df4 c
-      f8. c f8 f,2
     }
   >>
 }
