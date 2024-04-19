@@ -1,6 +1,14 @@
+% Adapted from https://musescore.com/starsoarer/scores/3089246
+
 \version "2.23.13"
 
 \include "english.ly"
+
+\header {
+	title = "Secret of the Forest - Chrono Trigger"
+	composer = "Yasunori Mitsuda"
+	arranger = "arr. for organ by Maddy Whittier"
+}
 
 \new PianoStaff <<
   \new Staff \relative {
@@ -85,7 +93,9 @@
     \key df \major
     r1 r r r r r r r
     c''2 bf4 ef8. d32 df c2 bf4 af
-    g2 f4 bf8. a32 af g2.
+    g2 f4 bf8. a32 af g2. <f c'>16 <g ef'> <af g'> <bf af'>
+    c2 bf4 ef8. d32 df c2 f8. g af16 bf
+    c4 ~ c8. bf32 af gf4 ~ gf8. af16 g2. r4
   }
 
   % harmony
@@ -93,9 +103,13 @@
     \time 4/4
     \key df \major
     r1 r r r r r r r
+    <gf bf f'> ~
     <gf bf f'>
-    <gf bf f'>
+    <f af ef'> ~
     <f af ef'>
+    <gf bf f'> ~
+    <gf bf f'>
+    <f af ef'> ~
     <f af ef'>
   }
 
