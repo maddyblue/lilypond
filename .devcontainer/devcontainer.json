@@ -1,0 +1,16 @@
+{
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"lhl2617.vslilypond"
+			],
+			"settings": {
+				"lilypondFormatter.general.pathToPython": "python3",
+				"lilypondFormatter.general.useBundledPythonLy": false
+			}
+		}
+	}
+}

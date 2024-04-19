@@ -5,9 +5,9 @@
 \include "english.ly"
 
 \header {
-	title = "Secret of the Forest - Chrono Trigger"
-	composer = "Yasunori Mitsuda"
-	arranger = "arr. for organ by Maddy Whittier"
+  title = "Secret of the Forest - Chrono Trigger2"
+  composer = "Yasunori Mitsuda"
+  arranger = "arr. for organ by Maddy Whittier"
 }
 
 \new PianoStaff <<
@@ -22,7 +22,7 @@
     bf, ef f bf
     bf, ef f bf
     bf, ef f bf
-    
+
     c, ef g af
     c, ef g af
     c, ef g af
@@ -40,7 +40,7 @@
     bf, ef f bf
     bf, ef f bf
     bf, ef f bf
-    
+
     c, ef g af
     c, ef g af
     c, ef g af
@@ -58,7 +58,7 @@
     bf, ef f bf
     bf, ef f bf
     bf, ef f bf
-    
+
     c, ef g af
     c, ef g af
     c, ef g af
@@ -76,7 +76,7 @@
     bf, ef f bf
     bf, ef f bf
     bf, ef f bf
-    
+
     c, ef g af
     c, ef g af
     c, ef g af
