@@ -5,7 +5,7 @@
   title = "Menu"
   subtitle = "from Secret of Evermore"
   composer = "Jeremy Soule"
-  arranger = "arr. for organ by Maddy Whittier"
+  arranger = "arr. for organ by Maddy Blue"
 }
 
 \score {

@@ -5,7 +5,7 @@
   title = "Dreams of the Shore Near Another World"
   subtitle = "from Chrono Cross"
   composer = "Yasunori Mitsuda"
-  arranger = "arr. for organ by Maddy Whittier"
+  arranger = "arr. for organ by Maddy Blue"
 }
 
 \score {
