@@ -12,17 +12,16 @@
   \header {
     piece = \markup {
       \column {
-        \line { \bold Réc Flûte Trav. 8 }
-        \line { \bold Pos Principal 8 }
-        \line { \bold GO Gambe 8, Doublette 2 }
-        \line { \bold Ped Soubasse 16, B. Doux 8 }
+        \line { \bold Boven V. di Gamba 8, V. di Gamda zw 8 }
+        \line { \bold Rug Holpijp 8 }
+        \line { \bold Ped Octaaf 16, Open Subbas 16 }
       }
     }
   }
   <<
     \new PianoStaff <<
       \new Staff
-      \with { instrumentName = "Réc" }
+      \with { instrumentName = "Rug" }
       \relative {
         \tempo 4 = 74
         \time 4/4
@@ -41,7 +40,7 @@
 
       % melody
       \new Staff
-      \with { instrumentName = "Pos" }
+      \with { instrumentName = "Boven" }
       \relative c' {
         \time 4/4
         \key c \major
