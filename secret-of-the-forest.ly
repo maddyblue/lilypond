@@ -5,7 +5,7 @@
 \include "english.ly"
 
 \header {
-  title = "Secret of the Forest - Chrono Trigger2"
+  title = "Secret of the Forest - Chrono Trigger"
   composer = "Yasunori Mitsuda"
   arranger = "arr. for organ by Maddy Whittier"
 }
