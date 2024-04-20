@@ -28,8 +28,8 @@
         \key c \major
 
         r1 r r g ~ <g c> ~ <g c f>
-        <f' c'>4 <fs b>2. ~ <fs b>2 r
-        <f c'>4. <fs b>8 ~ <fs b>2
+        <f' c'>4 <f b>2. ~ <f b>2 r
+        <f c'>4. <f b>8 ~ <f b>2
 
         \time 3/4
         \repeat unfold 4 { b8 e, a g cs e, }
@@ -106,14 +106,14 @@
       \clef bass
 
       e1 ~ e ~ e ~ e ~ e ~ e
-      <f f'>4 <f f'>2. ~ <f f'>2 r
+      <f, f'>4 <f f'>2. ~ <f f'>2 r
       <f f'>4. <f f'>8 ~ <f f'>2
 
       \repeat unfold 46 { s2. }
 
       \key ef \major
       \time 4/4
-      \repeat unfold 4 { c,1 ~ c4 r r2 }
+      \repeat unfold 4 { c1 ~ c4 r r2 }
       r1 r
       c2 d ef f
     }
