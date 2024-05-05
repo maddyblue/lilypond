@@ -12,28 +12,51 @@
   \header {
     piece = \markup {
       \column {
-        \line { \bold GO Principal & Flute 8, 4 }
-        \line { \bold Ped Principal & Flute 16, 8, 4, Tirasse GO }
+        \line { \bold Borst Gedekt 8 }
+        \line { \bold Boven Baarpijp 8, Roerfluit 8, V. di Gamba 8, V. di Gamba zw 8 }
+        \line { \bold Hoofd Openfluit 8 }
+        \line { \bold Rug Praestant 8 }
+        \line { \bold Ped Trompet 4 }
       }
     }
   }
   <<
     \new PianoStaff <<
       \new Staff
-      \with { instrumentName = "Réc" }
+      \with { instrumentName = "Hoofd" }
       \relative c' {
         \time 3/4
         \key c \major
 
-        \repeat unfold 9 {
+        \repeat unfold 2 {
           e8 <a c> e4 e8 <a c>
           f <a c> f4 f8 <a c>
           fs <a c> fs4 fs8 <a c>
           f <a c> f4 f8 <a c>
         }
 
+        <<
+          {
+            a2. ^ "Boven + Borst" ~ a ~ a c2 b4
+            a2. ~ a ~ a ~ a
+            a ~ a ~ a c2 b4
+            bf2. a c
+            bf ~ bf ~ bf ~ bf
+            bf4 a g a2. ~ a ~ a
+            c2 b4
+            a2. ~ a ~ a ~ a
+          }\\{
+            \repeat unfold 3 { e2. f fs f }
+            f e f g f e f g e f fs f e f fs f
+          }\\{
+            \repeat unfold 3 { c2. ~ c ~ c ~ c }
+            \repeat unfold 2 { d ~ d ~ d ~ d }
+            \repeat unfold 2 { c ~ c ~ c ~ c }
+          }
+        >>
+
         % m37
-        <c, a'>4 <d b'> <e c'> <f d'> <e c'> <d b'> <c a'>2. ~ <c a'>
+        <c a'>4 <d b'> <e c'> <f d'> <e c'> <d b'> <c a'>2. ~ <c a'>
         <a' f'> <f d'> <a c> <f a> <e g> ~ <e g> <g bf> ~ <g b>
 
         % m49
@@ -54,38 +77,8 @@
         <g d'> ~ <g ef'> ~ <g e'> ~ <g ef'>
       }
 
-
       \new Staff
-      \with { instrumentName = "Réc" }
-      \relative c' {
-        \time 3/4
-        \key c \major
-
-        r2. r r r r r r r
-
-        <<
-          {
-            a'2. ~ a ~ a c2 b4
-            a2. ~ a ~ a ~ a
-            a ~ a ~ a c2 b4
-            bf2. a c
-            bf ~ bf ~ bf ~ bf
-            bf4 a g a2. ~ a ~ a
-            c2 b4
-            a2. ~ a ~ a ~ a
-          }\\{
-            \repeat unfold 3 { e2. f fs f }
-            f e f g f e f g e f fs f e f fs f
-          }\\{
-            \repeat unfold 3 { c2. ~ c ~ c ~ c }
-            \repeat unfold 2 { d ~ d ~ d ~ d }
-            \repeat unfold 2 { c ~ c ~ c ~ c }
-          }
-        >>
-      }
-
-      \new Staff
-      \with { instrumentName = "GO" }
+      \with { instrumentName = "Rug" }
       \relative {
         \key c \major
         \time 3/4
