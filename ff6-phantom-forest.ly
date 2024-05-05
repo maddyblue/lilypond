@@ -98,7 +98,7 @@
             bf,8 f' bf2
             bf,8 g' bf2
             bf,8 f' bf2
-            bf,8 ef bf'2
+            bf,8 e bf'2
             bf,8 f' bf2
             bf,8 g' bf2
             \repeat unfold 2 {
