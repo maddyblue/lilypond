@@ -12,11 +12,9 @@
   \header {
     piece = \markup {
       \column {
-        \line { \bold Borst Gedekt 8 }
-        \line { \bold Boven Baarpijp 8, Roerfluit 8, V. di Gamba 8, V. di Gamba zw 8 }
         \line { \bold Hoofd Some 4 }
-        \line { \bold Rug Praestant 8 }
-        \line { \bold Ped Trompet 4 }
+        \line { \bold Rug Some 16? }
+        \line { \bold Ped 16 }
       }
     }
   }
@@ -61,6 +59,33 @@
         g' a, b f' a, b f' a, b
         <d, a' bf cf e>2. \arpeggio ~ <d a' bf cf e>4. ~
         <d a' bf cf e>2. ~ <d a' bf cf e>4.
+
+        % m17
+        r8 fs c' df c fs, df' c fs,
+        r fs b cs b fs cs' b fs
+        r fs bf cs bf fs cs' bf fs
+        r fs b cs b fs cs' b fs
+        r fs c' df c fs, df' c fs,
+        r fs b cs b fs cs' b fs
+        r fs bf cs bf fs cs' bf fs
+        r fs b cs b fs cs' b fs
+
+        % m25
+        a' a, fs a' a, fs a' a, fs
+        c'' a, fs bf' a, fs a' a, fs
+        g' d bf g' d bf g' d bf
+        g' d bf g' d bf g' d bf
+        g' cs, bf g' cs, bf g' cs, bf
+        bf' e, cs a' e cs g' e cs
+        \repeat unfold 6 { f d a }
+        \repeat unfold 3 { a' a, fs }
+        c'' a, fs bf' a, fs a' a, fs
+        g' d bf g' d bf g' d bf
+        bf' e, d a' e d g e d
+        f a, bf f' a, bf f' a, bf
+        f' c b g' cs, bf gs' d b
+        a' e cs a' e cs a' e cs
+        <cs e a>2. \arpeggio ~ <cs e a>4.
       }
     >>
 
@@ -72,6 +97,18 @@
 
       \repeat unfold 7 { d'2. ~ d4. ~ d2. ~ d4. }
       r2. r4. r2. r4.
+      \repeat unfold 8 { d2. ~ d4. }
+      d2. ~ d4. ~ d2. ~ d4.
+      g2. ~ g4. g,2. ~ g4.
+      cs2. ~ cs4. e2. ~ e4.
+      d2. ~ d4. ~ d2. ~ d4.
+      d2. ~ d4.
+      d2. ~ d4. ~ d2. ~ d4.
+      a2. ~ a4.
+      d2. ~ d4.
+      d d e
+      a,2. ~ a4.
+      r2. r4.
     }
   >>
 }
