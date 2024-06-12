@@ -10,6 +10,7 @@
 
 \score {
   \midi { }
+  \layout { }
   \header {
     piece = \markup {
       \column {
