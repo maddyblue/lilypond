@@ -88,15 +88,28 @@
         \key bf \major
         c,4 ^ "Chimes"
         \tuplet 3/2 {
-          <d' ef>8\staccato
-          <d ef>\staccato
-          <d ef>\staccato
+          <d' fs>8\staccato
+          <d fs>\staccato
+          <d fs>\staccato
         }
-        <d ef>\staccato
-        <c d>\staccato
-        <d ef>\staccato
-        <ef f>\staccato
-        <f g>1
+        <d fs>\staccato
+        <c e>\staccato
+        <d fs>\staccato
+        <ef g>\staccato
+        <f a>1
+
+        e4 d8 c af2
+        r8 ef'' df cf af4 bf8 cf
+        g e c'2.
+        g8 ef c2 d8 ef
+        d bf g'2.
+        df8 a g'2. ~
+
+        \repeat unfold 8 {
+          \tuplet 3/2 {
+            g32,[ b cs] d[ g b] cs[ b g] d[ cs b]
+          }
+        }
       }
 
       \new Staff
@@ -136,6 +149,30 @@
         <ef g>\staccato
         <f a>\staccato
         <g bf>\staccato
+
+        <<
+          {
+            af1' ef e
+          } \\ {
+            c2 c cf4 \tuplet 3/2 { cf8 cf cf } cf2 c8 c c2.
+          } \\ {
+            af4 \tuplet 3/2 { af8 af af } af2
+            af4 \tuplet 3/2 { af8 af af } af2
+            g8 g g2.
+          }
+        >>
+
+        <<
+          {
+            ef1 d
+          } \\ {
+            <g c>4. <g c>8 <g ef'>4 <g c>
+            <bf d>4. <bf d>8 <bf f'>4 <bf d>
+          }
+        >>
+
+        <df, a' df>2 <c af' c>
+        <b g' b>1 ~ <b g' b>
       }
     >>
 
