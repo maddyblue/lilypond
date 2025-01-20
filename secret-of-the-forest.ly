@@ -137,14 +137,17 @@
         c, ef g af
 
         % m24
-        % TODO: This is wrong.
-        f,32 g af bf af bf c df
-        c df ef f g f g af
-        g af bf c df ef f g
-        af g ef c af g ef c
+        f,,32 g af c
+        ef f g af
+        f g af c
+        ef f g af
+        f g af c
+        ef f g af
+        g ef c af
+        g f c af
 
         % m25
-        f16 gf bf df f df bf gf
+        f'16 gf bf df f df bf gf
         f gf bf df f df bf gf
         f gf a df f df a gf
         f gf a df f df a gf
