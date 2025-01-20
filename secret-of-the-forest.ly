@@ -122,10 +122,34 @@
     c, ef g af
 
     % m24
+    % TODO: This is wrong.
     f,32 g af bf af bf c df
     c df ef f g f g af
     g af bf c df ef f g
     af g ef c af g ef c
+
+    % m25
+    f16 fs bf df f df bf fs
+    f fs bf df f df bf fs
+    f fs a df f df a fs
+    f fs a df f df a fs
+
+    % m27
+    f af c ef f ef c af
+    f af c ef f ef c af
+    f fs bf df f df b fs
+    f fs bf df f df b fs
+
+    % m29
+    f fs a df f df a fs
+    f fs a df f df a fs
+    f bf c ef f ef c bf
+    f bf c ef f ef c bf
+
+    % m31
+    f a c ef f ef c a
+    f a c ef f ef c a
+
   }
 
   % melody
@@ -158,22 +182,35 @@
     \key df \major
     \clef bass
     gf,2. ~ gf8. df'16 gf,2. gf'4
-    f2. ~ f8. c16 f,2. r16 f r f
+    f2. ~ f8. c16 f,2. r16 f r gf ~
     gf2. ~ gf8 df' gf,8. gf16\staccato r8 gf4. gf'4
     f2. ~ f16 c8 f16 f,8. f16 r8. f16 ~ f4. r16 c'
 
     gf2. ~ gf8. df'16 gf,2. gf'4
-    f2. ~ f8. c16 f,2. r16 f r f
+    f2. ~ f8. c16 f,2. r16 f r gf ~
     gf2. ~ gf8 df' gf,8. gf16\staccato r8 gf4. gf'4
     f2. ~ f16 c8 f16 f,8. f16 r8. f16 ~ f4. r16 c'
 
     % m17
-    ef,2. ~ ef8. df'16 ef,2. gf'4
-    f2. ~ f8. c16 f,2. ~ f8
+    gf2. ~ gf8. df'16 gf,2. gf'4
+    f2. ~ f8. c16 f,2. r16 f r gf ~
+    gf2. ~ gf8 df' gf,8. gf16\staccato r8 gf4. gf'4
+    f2. ~ f16 c8 f16 f,8. f16 r8. f16 ~ f4. r16 c'
+
+    % m25
+    % TODO: Fix, notes kinda right.
+    ef4 bf f ef ef gf ef bf f bf bf,
+    f' bf ef bf
   }
 >>
+
+% m09: 0:25
 
 % m17: 0:51
 % m21: 1:04
 % m24: 1:14 (big argeppio)
 % m25: 1:17
+% m27: 1:23
+% m29: 1:29
+% m31: 1:32
+% m33: 1:38
