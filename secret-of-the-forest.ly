@@ -1,7 +1,4 @@
-% Adapted from https://musescore.com/starsoarer/scores/3089246
-
 \version "2.23.13"
-
 \include "english.ly"
 
 \header {
@@ -72,6 +69,20 @@
         \repeat unfold 2 { f a c ef f ef c a }
 
         % m33
+        \repeat unfold 2 {
+          <f af c>8 <f af c> <f af df> <f af df>
+          <f af ef'>  <f af ef'>  <f af c>4
+          <d f a>8 <d f a> <d f bf> <d f bf>
+          <d f c'>  <d f c'>  <d f a>4
+          <bf df f>8 <bf df f> <bf df gf> <bf df gf>
+          <bf df af'>  <bf df af'>  <bf df f>4
+          <c ef g>8 <c ef g> <c ef af> <c ef af>
+          <c ef bf'>  <c ef bf'>  <c ef g>4
+        }
+
+        % m41
+        <bf ef g>4. af'8 <af, df f>4 <bf c ef>
+        <bf c f>2 <a c f>
       }
 
       % melody
@@ -135,8 +146,15 @@
       c2 g4' c
       f2, c2
 
-      % m31
-      %bf
+      % m33
+      \repeat unfold 2 {
+        bf8. f'16 r8 bf ~ bf8. c16 bf f bf,8
+        g8. d'16 r8 a'8. g d8 g,
+        ef8. bf'16 r8 f'8. ef bf8 ef,
+        f8. c'16 r8 f,4 ~ f16 f af f c8
+      }
+      df8. af' ef'8 df4 c
+      f8. c f8 f,2
     }
   >>
 }
