@@ -129,32 +129,30 @@
     af g ef c af g ef c
 
     % m25
-    f16 fs bf df f df bf fs
-    f fs bf df f df bf fs
-    f fs a df f df a fs
-    f fs a df f df a fs
+    f16 gf bf df f df bf gf
+    f gf bf df f df bf gf
+    f gf a df f df a gf
+    f gf a df f df a gf
 
     % m27
     f af c ef f ef c af
     f af c ef f ef c af
-    f fs bf df f df b fs
-    f fs bf df f df b fs
+    f af c ef f ef c af
+    f af c ef f ef c af
 
     % m29
-    f fs a df f df a fs
-    f fs a df f df a fs
-    f bf c ef f ef c bf
-    f bf c ef f ef c bf
+    f gf bf df f df bf gf
+    f gf bf df f df bf gf
+    f gf a df f df a gf
+    f gf a df f df a gf
 
     % m31
-    f a c ef f ef c a
-    f a c ef f ef c a
     f bf c ef f ef c bf
     f bf c ef f ef c bf
+    f a c ef f ef c a
+    f a c ef f ef c a
 
     % m33
-    f a c ef f ef c a
-    f a c ef f ef c a
   }
 
   % melody
@@ -224,7 +222,9 @@
 % m24: 1:14 (big argeppio)
 % m25: 1:17
 % m27: 1:23
+% m28: 1:26
 % m29: 1:29
-% m31: 1:32
-% m33: 1:38
-% m34: 1:42 (b section)
+% m30: 1:32
+% m31: 1:35
+% m32: 1:38
+% m33: 1:42 (b section)
