@@ -12,8 +12,6 @@
   \header {
     piece = \markup {
       \column {
-        %\line { \bold Réc Trompette 8 }
-        %\line { \bold Pos Principal 8, Salicional 8 }
         \line { \bold GO Principal & Flute 8, 4 }
         \line { \bold Ped Principal & Flute 16, 8, 4, Tirasse GO }
       }
@@ -75,7 +73,8 @@
         \key ef \major
         \time 4/4
 
-        c,,,2 ^ \markup { \column \string-lines
+        c,,,2 ^ \markup {
+          \column \string-lines
           "Réc: Chimes (Diapason & Plein Jeu? idk)
           Pos & GO: 8's, Couplers
           Ped: Principal & Flutes 16, 8, Tirasse GO, P"
@@ -91,7 +90,8 @@
         <g c ef>2 <bf d g> <bf ef fs> <df f bf>4 ~ <df f c'>
 
         \key bf \major
-        c,4 ^ \markup { \column \string-lines
+        c,4 ^ \markup {
+          \column \string-lines
           "Réc: Cornet
           GO: Flute 8, 4, Doublette 2
           Ped: 16, 8, 4"
