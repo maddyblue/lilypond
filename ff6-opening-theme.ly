@@ -74,7 +74,29 @@
         \key ef \major
         \time 4/4
 
-        c,,,1 r
+        c,,,2 ^ "Chimes"
+        bf4 ^ "GO" c df1
+        r2 bf4 c <df f>2
+        s8 df32[ f a c] df[ f af a] df df df df
+        c,,2 ^ "Chimes"
+        bf4 ^ "GO" c df1
+        r2 bf4 c <df f>1
+
+        <c ef>2 <bf d g> <bf ef fs> <df f bf>4 ~ <df f c'>
+        <g c ef>2 <bf d g> <bf ef fs> <df f bf>4 ~ <df f c'>
+
+        \key bf \major
+        c,4 ^ "Chimes"
+        \tuplet 3/2 {
+          <d' ef>8\staccato
+          <d ef>\staccato
+          <d ef>\staccato
+        }
+        <d ef>\staccato
+        <c d>\staccato
+        <d ef>\staccato
+        <ef f>\staccato
+        <f g>1
       }
 
       \new Staff
@@ -95,7 +117,25 @@
         \key ef \major
         \time 4/4
 
-        r2 <ef, f bf>4 <d g c> <df af' df>1
+        r2 <ef, f>4 <d g> <df af'>1
+        r2 <ef f bf>4 <d g> <df af'>2
+        df32[ f af a] s8 s s
+        r2 <ef f>4 <d g> <df af'>1
+        r2 <ef f bf>4 <d g> <df af'>1
+
+        c2 bf fs f c d ef f
+
+        \key bf \major
+        r1 r4
+        \tuplet 3/2 {
+          <f' a>8\staccato
+          <f a>\staccato
+          <f a>\staccato
+        }
+        <f a>\staccato
+        <ef g>\staccato
+        <f a>\staccato
+        <g bf>\staccato
       }
     >>
 
@@ -114,8 +154,11 @@
       \key ef \major
       \time 4/4
       \repeat unfold 4 { c1 ~ c4 r r2 }
-      r1 r
-      c2 d ef f
+      c2' bf fs f c d ef f
+
+      \key bf \major
+      c1 ~ c f ~ f
+      c' ~ c g g ~ g ~ g
     }
   >>
 }
