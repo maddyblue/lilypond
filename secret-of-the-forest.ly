@@ -149,7 +149,12 @@
     % m31
     f a c ef f ef c a
     f a c ef f ef c a
+    f bf c ef f ef c bf
+    f bf c ef f ef c bf
 
+    % m33
+    f a c ef f ef c a
+    f a c ef f ef c a
   }
 
   % melody
@@ -198,14 +203,22 @@
     f2. ~ f16 c8 f16 f,8. f16 r8. f16 ~ f4. r16 c'
 
     % m25
-    % TODO: Fix, notes kinda right.
-    ef4 bf f ef ef gf ef bf f bf bf,
-    f' bf ef bf
+    ef2 bf'4 ~ bf16 ef, df8
+    b2 gf'4 b,
+    bf2 f'4 bf
+    bf,2 f'4 bf,
+
+    ef2 bf'4 ~ bf16 ef, df8
+    b2 gf'4 b,
+    c2 g4' c
+    f2, c2
+
+    % m31
+    %bf
   }
 >>
 
 % m09: 0:25
-
 % m17: 0:51
 % m21: 1:04
 % m24: 1:14 (big argeppio)
@@ -214,3 +227,4 @@
 % m29: 1:29
 % m31: 1:32
 % m33: 1:38
+% m34: 1:42 (b section)
