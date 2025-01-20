@@ -45,7 +45,7 @@
         d'8 d c16 b8 d16 ~ d4 e16 d c b
         a8 a a16 g8 a16 ~ a4 r
         \repeat unfold 2 {b8 c b a b8. g16 ~ g4}
-        g8. f g8 a8. f a8
+        g8. f g8 a8. g a8
         b8. a b8 c8. b c8
         \key f \major
         d8 d f16 a8 g16 ~ g8 f e d
