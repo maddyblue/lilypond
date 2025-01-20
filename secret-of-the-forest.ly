@@ -5,7 +5,7 @@
   title = "Secret of the Forest"
   subtitle = "from Chrono Trigger"
   composer = "Yasunori Mitsuda"
-  arranger = "arr. for organ by Maddy Whittier"
+  arranger = "arr. for organ by Maddy Blue"
 }
 
 \score {
