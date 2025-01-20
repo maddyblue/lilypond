@@ -74,20 +74,10 @@
       ff ~ ff
       \repeat unfold 5 { ef2.. ~ ef }
       ff ~ ff
-      \repeat unfold 4 { ef2.. ~ ef }
+      ef2.. ~ ef
+      <ef gf> ~ <ef gf>
+      <ef gf bf> ~ <ef gf bf>
+      <ef gf bf d> ~ <ef gf bf d>
     }
   >>
 }
-
-% m09: 0:25
-% m17: 0:51
-% m21: 1:04
-% m24: 1:14 (big argeppio)
-% m25: 1:17
-% m27: 1:23
-% m28: 1:26
-% m29: 1:29
-% m30: 1:32
-% m31: 1:35
-% m32: 1:38
-% m33: 1:42 (b section)
