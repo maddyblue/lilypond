@@ -9,6 +9,7 @@
 }
 
 \score {
+  \midi { }
   \header {
     piece = \markup {
       \column {
