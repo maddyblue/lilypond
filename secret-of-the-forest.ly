@@ -17,6 +17,7 @@
       \column {
         \line { \bold Réc Flûte Trav. 8 }
         \line { \bold Pos Principal 8 }
+        \line { \bold GO Gambe 8, Doublette 2 }
         \line { \bold Ped Soubasse 16, B. Doux 8 }
       }
     }
@@ -29,112 +30,21 @@
         \tempo 4 = 74
         \time 4/4
         \key df \major
-        bf'16 ef f bf
-        bf, ef f bf
-        bf, ef f bf
-        bf, ef f bf
-        bf, ef f bf
-        bf, ef f bf
-        bf, ef f bf
-        bf, ef f bf
 
-        c, ef g af
-        c, ef g af
-        c, ef g af
-        c, ef g af
-        c, ef g af
-        c, ef g af
-        c, ef g af
-        c, ef g af
-
-        bf, ef f bf
-        bf, ef f bf
-        bf, ef f bf
-        bf, ef f bf
-        bf, ef f bf
-        bf, ef f bf
-        bf, ef f bf
-        bf, ef f bf
-
-        c, ef g af
-        c, ef g af
-        c, ef g af
-        c, ef g af
-        c, ef g af
-        c, ef g af
-        c, ef g af
-        c, ef g af
-
-        bf, ef f bf
-        bf, ef f bf
-        bf, ef f bf
-        bf, ef f bf
-        bf, ef f bf
-        bf, ef f bf
-        bf, ef f bf
-        bf, ef f bf
-
-        c, ef g af
-        c, ef g af
-        c, ef g af
-        c, ef g af
-        c, ef g af
-        c, ef g af
-        c, ef g af
-        c, ef g af
-
-        bf, ef f bf
-        bf, ef f bf
-        bf, ef f bf
-        bf, ef f bf
-        bf, ef f bf
-        bf, ef f bf
-        bf, ef f bf
-        bf, ef f bf
-
-        c, ef g af
-        c, ef g af
-        c, ef g af
-        c, ef g af
-        c, ef g af
-        c, ef g af
-        c, ef g af
-        c, ef g af
+        \repeat unfold 8 { bf'16 ef f bf }
+        \repeat unfold 8 { c, ef g af }
+        \repeat unfold 8 { bf, ef f bf }
+        \repeat unfold 8 { c, ef g af }
+        \repeat unfold 8 { bf, ef f bf }
+        \repeat unfold 8 { c, ef g af }
+        \repeat unfold 8 { bf, ef f bf }
+        \repeat unfold 8 { c, ef g af }
 
         % m17
-        bf, ef f bf
-        bf, ef f bf
-        bf, ef f bf
-        bf, ef f bf
-        bf, ef f bf
-        bf, ef f bf
-        bf, ef f bf
-        bf, ef f bf
-
-        c, ef g af
-        c, ef g af
-        c, ef g af
-        c, ef g af
-        c, ef g af
-        c, ef g af
-        c, ef g af
-        c, ef g af
-
-        % m21
-        bf, ef f bf
-        bf, ef f bf
-        bf, ef f bf
-        bf, ef f bf
-        bf, ef f bf
-        bf, ef f bf
-        bf, ef f bf
-        bf, ef f bf
-
-        % m23
-        c, ef g af
-        c, ef g af
-        c, ef g af
-        c, ef g af
+        \repeat unfold 8 { bf, ef f bf }
+        \repeat unfold 8 { c, ef g af }
+        \repeat unfold 8 { bf, ef f bf }
+        \repeat unfold 4 { c, ef g af }
 
         % m24
         f,,32 g af c
@@ -153,10 +63,7 @@
         f gf a df f df a gf
 
         % m27
-        f af c ef f ef c af
-        f af c ef f ef c af
-        f af c ef f ef c af
-        f af c ef f ef c af
+        \repeat unfold 4 { f af c ef f ef c af }
 
         % m29
         f gf bf df f df bf gf
@@ -185,15 +92,25 @@
         c2 bf4 ef8. d32 df c2 f8. g af16 bf
         c4 ~ c8. bf32 af g4 ~ g8. f16 g2. r4
 
-        f8. f f r \tuplet 3/2 { ef8 af df, }
+        % m17
+        f8. ^ GO f f r \tuplet 3/2 { ef8 af df, }
         c32 df c8. ~ c2 \tuplet 3/2 { bf8 ef af, }
-        g32 af g8. ~ g2. r1
 
-        f'8. f f r \tuplet 3/2 { ef8 af df, }
+        % m19, 0:57.9
+        g32[ af g16]
+        g8 ^ Pos f bf g ~ g4 ef8 c2 r
+
+        % m21
+        f'8. ^ GO f f r \tuplet 3/2 { ef8 af df, }
         c32 df c8. ~ c2 \tuplet 3/2 { bf8 ef af, }
-        g32 af g8. ~ g2. r1
 
-        f'2 ef4 af8. g32 gf f2 ef4 df
+        % m23
+        g32 af g16 ~ g8
+        g4 ^ Pos af bf
+        c2 r
+
+        % m25
+        f2 ef4 af8. g32 gf f2 ef4 df
         c2 bf4 ef8. d32 df c2 ~ c8 bf8 ~ bf16 c df ef
         f2 ef4 af8. g32 gf f2 ef4 af
         f1 c1
