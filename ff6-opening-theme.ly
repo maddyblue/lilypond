@@ -12,10 +12,10 @@
   \header {
     piece = \markup {
       \column {
-        \line { \bold Réc Trompette 8 }
-        \line { \bold Pos Principal 8, Salicional 8 }
-        \line { \bold GO Flûte Harm. 8 }
-        \line { \bold Ped Contrebasse 16 }
+        %\line { \bold Réc Trompette 8 }
+        %\line { \bold Pos Principal 8, Salicional 8 }
+        \line { \bold GO Principal & Flute 8, 4 }
+        \line { \bold Ped Principal & Flute 16, 8, 4, Tirasse GO }
       }
     }
   }
@@ -28,11 +28,12 @@
         \key c \major
 
         r1 r r g ~ <g c> ~ <g c f>
-        <f' c'>4 <f b>2. ~ <f b>2 r
+        <f' c'>4 ^ "~Tutti" <f b>2. ~ <f b>2 r
         <f c'>4. <f b>8 ~ <f b>2
 
         \time 3/4
-        \repeat unfold 4 { b8 e, a g cs e, }
+        b8 ^ "Réc: Clarinette 8" e, a g cs e,
+        \repeat unfold 3 { b8' e, a g cs e, }
         \repeat unfold 4 { c' gf bf af ef' gf, }
         \repeat unfold 4 { b e, a g cs e, }
         \repeat unfold 4 { c' gf bf af ef' gf, }
@@ -74,19 +75,27 @@
         \key ef \major
         \time 4/4
 
-        c,,,2 ^ "Chimes"
-        bf4 ^ "GO" c df1
+        c,,,2 ^ \markup { \column \string-lines
+          "Réc: Chimes (Diapason & Plein Jeu? idk)
+          Pos & GO: 8's, Couplers
+          Ped: Principal & Flutes 16, 8, Tirasse GO, P"
+        } - "Chimes"
+        bf4 - "GO" c df1
         r2 bf4 c <df f>2
         s8 df32[ f a c] df[ f af a] df df df df
-        c,,2 ^ "Chimes"
-        bf4 ^ "GO" c df1
+        c,,2 - "Chimes"
+        bf4 - "GO" c df1
         r2 bf4 c <df f>1
 
-        <c ef>2 <bf d g> <bf ef fs> <df f bf>4 ~ <df f c'>
+        <c ef>2 ^ "v. full" <bf d g> <bf ef fs> <df f bf>4 ~ <df f c'>
         <g c ef>2 <bf d g> <bf ef fs> <df f bf>4 ~ <df f c'>
 
         \key bf \major
-        c,4 ^ "Chimes"
+        c,4 ^ \markup { \column \string-lines
+          "Réc: Cornet
+          GO: Flute 8, 4, Doublette 2
+          Ped: 16, 8, 4"
+        } - "Réc"
         \tuplet 3/2 {
           <d' fs>8\staccato
           <d fs>\staccato
@@ -98,7 +107,7 @@
         <ef g>\staccato
         <f a>1
 
-        e4 d8 c af2
+        e4 ^ "GO" d8 c af2
         r8 ef'' df cf af4 bf8 cf
         g e c'2.
         g8 ef c2 d8 ef
@@ -152,7 +161,7 @@
 
         <<
           {
-            af1' ef e
+            af1' ^ "Réc" ef e
           } \\ {
             c2 c cf4 \tuplet 3/2 { cf8 cf cf } cf2 c8 c c2.
           } \\ {
