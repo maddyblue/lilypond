@@ -10,6 +10,7 @@
 
 \score {
   \midi { }
+  \layout { }
   \header {
     piece = \markup {
       \column {
@@ -35,7 +36,7 @@
       \new Staff
       \with { instrumentName = "Rug" }
       \relative {
-        \tempo 4 = 74
+        \tempo 4 = 124
         \time 4/4
         \key c \major
 
