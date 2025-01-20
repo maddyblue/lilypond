@@ -12,17 +12,17 @@
   \header {
     piece = \markup {
       \column {
-        \line { \bold Réc Flûte Trav. 8 }
-        \line { \bold Pos Principal 8 }
-        \line { \bold GO Gambe 8, Doublette 2 }
-        \line { \bold Ped Soubasse 16, B. Doux 8 }
+        \line { \bold Réc Clarinette 8 }
+        \line { \bold Pos Unda Maris 8 }
+        \line { \bold GO Flûte Harm. 8 }
+        \line { \bold Ped Contrebasse 16 }
       }
     }
   }
   <<
     \new PianoStaff <<
       \new Staff
-      \with { instrumentName = "Réc" }
+      \with { instrumentName = "GO" }
       \relative c''' {
         \tempo 4 = 90
         \time 7/8
@@ -33,7 +33,8 @@
         bf2 ~ bf8 f4 gf2 ~ gf8 af4 ff2.. cf'
         bf2 ~ bf8 f4 gf2 ~ gf8 af4 bf2.. r
         \repeat unfold 2 { cf,4 gf'4. f4 ef df4. cf4 ef2.. r }
-        bf'2. \tuplet 3/2 { bff16 af aff }
+
+        bf'2. ^ "Pos" \tuplet 3/2 { bff16 af aff }
         gf2. \tuplet 3/2 { f16 ff ef }
         d2.. bf
         bf'2. \tuplet 3/2 { bff16 af aff }
@@ -42,7 +43,7 @@
       }
 
       \new Staff
-      \with { instrumentName = "Pos" }
+      \with { instrumentName = "Réc" }
       \relative {
         \time 7/8
         \key gf \major
@@ -57,7 +58,8 @@
         \repeat unfold 2 { ff,[ af c] ef[ c] ef[ c] }
 
         \clef treble
-        \repeat unfold 8 { ef'16[ ef gf ef f ef] d[ ef ef ef] bf[ ef d ef] }
+        ef16[ ^ "Réc: Flute Octav. 4" ef gf ef f ef] d[ ef ef ef] bf[ ef d ef]
+        \repeat unfold 7 { ef[ ef gf ef f ef] d[ ef ef ef] bf[ ef d ef] }
       }
     >>
 
