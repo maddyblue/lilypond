@@ -57,25 +57,19 @@
         g f c af
 
         % m25
-        f'16 gf bf df f df bf gf
-        f gf bf df f df bf gf
-        f gf a df f df a gf
-        f gf a df f df a gf
+        \repeat unfold 2 { f'16 gf bf df f df bf gf }
+        \repeat unfold 2 { f gf a df f df a gf }
 
         % m27
         \repeat unfold 4 { f af c ef f ef c af }
 
         % m29
-        f gf bf df f df bf gf
-        f gf bf df f df bf gf
-        f gf a df f df a gf
-        f gf a df f df a gf
+        \repeat unfold 2 { f gf bf df f df bf gf }
+        \repeat unfold 2 { f gf a df f df a gf }
 
         % m31
-        f bf c ef f ef c bf
-        f bf c ef f ef c bf
-        f a c ef f ef c a
-        f a c ef f ef c a
+        \repeat unfold 2 { f bf c ef f ef c bf }
+        \repeat unfold 2 { f a c ef f ef c a }
 
         % m33
       }
@@ -122,21 +116,13 @@
       \time 4/4
       \key df \major
       \clef bass
-      gf,2. ~ gf8. df'16 gf,2. gf'4
-      f2. ~ f8. c16 f,2. r16 f r gf ~
-      gf2. ~ gf8 df' gf,8. gf16\staccato r8 gf4. gf'4
-      f2. ~ f16 c8 f16 f,8. f16 r8. f16 ~ f4. r16 c'
 
-      gf2. ~ gf8. df'16 gf,2. gf'4
-      f2. ~ f8. c16 f,2. r16 f r gf ~
-      gf2. ~ gf8 df' gf,8. gf16\staccato r8 gf4. gf'4
-      f2. ~ f16 c8 f16 f,8. f16 r8. f16 ~ f4. r16 c'
-
-      % m17
-      gf2. ~ gf8. df'16 gf,2. gf'4
-      f2. ~ f8. c16 f,2. r16 f r gf ~
-      gf2. ~ gf8 df' gf,8. gf16\staccato r8 gf4. gf'4
-      f2. ~ f16 c8 f16 f,8. f16 r8. f16 ~ f4. r16 c'
+      \repeat unfold 3 {
+        gf,2. ~ gf8. df'16 gf,2. gf'4
+        f2. ~ f8. c16 f,2. r16 f r gf ~
+        gf2. ~ gf8 df' gf,8. gf16\staccato r8 gf4. gf'4
+        f2. ~ f16 c8 f16 f,8. f16 r8. f16 ~ f4. r16 c'
+      }
 
       % m25
       ef2 bf'4 ~ bf16 ef, df8
