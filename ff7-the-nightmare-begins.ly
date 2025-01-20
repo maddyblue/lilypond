@@ -12,9 +12,10 @@
   \header {
     piece = \markup {
       \column {
-        \line { \bold Hoofd Some 4 }
-        \line { \bold Rug Some 16? }
-        \line { \bold Ped 16 }
+        \line { \bold Boven Openfluit 4 }
+        \line { \bold Hoofd Octaaf 8 }
+        \line { \bold Rug Quintadeen 16 }
+        \line { \bold Ped Open Subbas 16 }
       }
     }
   }
@@ -29,9 +30,9 @@
         \repeat unfold 6 { f'2. ~ f4. ~ }
         a2. ~ a4.
         e2. ~ e4.
-        f2. ^ "+8" ~ f4. ~
+        f2. ^ "+ Roerfluit 8" ~ f4. ~
         \repeat unfold 5 { f2. ~ f4. ~ }
-        e2. ^ "-4, +2 2/3" ~ e4. ~
+        e2. ^ "- Openfluit 4, + Roerquint 2 2/3" ~ e4. ~
         e2. ~ e4.
       }
 
@@ -61,7 +62,7 @@
         <d a' bf cf e>2. ~ <d a' bf cf e>4.
 
         % m17
-        r8 fs c' df c fs, df' c fs,
+        r8 ^ "Hoofd" fs c' df c fs, df' c fs,
         r fs b cs b fs cs' b fs
         r fs bf cs bf fs cs' bf fs
         r fs b cs b fs cs' b fs
@@ -97,7 +98,8 @@
 
       \repeat unfold 7 { d'2. ~ d4. ~ d2. ~ d4. }
       r2. r4. r2. r4.
-      \repeat unfold 8 { d2. ~ d4. }
+      d,2. ^ "Octaaf 8" ~ d4.
+      \repeat unfold 7 { d2. ~ d4. }
       d2. ~ d4. ~ d2. ~ d4.
       g2. ~ g4. g,2. ~ g4.
       cs2. ~ cs4. e2. ~ e4.
