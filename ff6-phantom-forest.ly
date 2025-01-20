@@ -29,6 +29,7 @@
       \relative c' {
         \time 3/4
         \key c \major
+        \tempo 4 = 120
 
         \repeat unfold 2 {
           e8 <a c> e4 e8 <a c>
