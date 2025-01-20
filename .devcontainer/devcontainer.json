@@ -2,15 +2,13 @@
 	"build": {
 		"dockerfile": "Dockerfile"
 	},
-	// Unable to get these to work. The formatter reloads the previous version of the file, and pdf
-	// preview doesn't work, probably because compile on save doesn't work because it requires the
-	// formatter.
-	//
-	// "customizations": { "vscode": { "extensions": [ "lhl2617.vslilypond"
-	//    ],
-	//    "settings": { "lilypondFormatter.general.pathToPython": "python3",
-	//      "lilypondFormatter.general.useBundledPythonLy": false
-	//    }
-	//  }
-	// }
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"truefire.lilypond",
+				"mathematic.vscode-pdf",
+				"maddyw.lilypond-assist"
+			]
+		}
+	}
 }
